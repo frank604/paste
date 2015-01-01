@@ -1,0 +1,40 @@
+D/Volley ( 7187): [392] BasicNetwork.performRequest: Http status: 200
+I/OMXClient( 7187): Using client-side OMX mux.
+E/SEC_COMP_REGS( 7187): .
+E/SEC_COMP_REGS( 7187): ..
+E/SEC_COMP_REGS( 7187): libOMX.SEC.AVC.Decoder.so
+E/SEC_COMP_REGS( 7187): Path & libName : /system/lib/omx/libOMX.SEC.AVC.Decoder.
+so
+E/SEC_COMP_REGS( 7187): libOMX.SEC.AVC.Encoder.so
+E/SEC_COMP_REGS( 7187): Path & libName : /system/lib/omx/libOMX.SEC.AVC.Encoder.
+so
+E/SEC_COMP_REGS( 7187): libOMX.SEC.M4V.Decoder.so
+E/SEC_COMP_REGS( 7187): Path & libName : /system/lib/omx/libOMX.SEC.M4V.Decoder.
+so
+E/SEC_COMP_REGS( 7187): libOMX.SEC.M4V.Encoder.so
+E/SEC_COMP_REGS( 7187): Path & libName : /system/lib/omx/libOMX.SEC.M4V.Encoder.
+so
+E/SEC_COMP_REGS( 7187): libOMX.SEC.WMV.Decoder.so
+E/SEC_COMP_REGS( 7187): Path & libName : /system/lib/omx/libOMX.SEC.WMV.Decoder.
+so
+I/OMXClient( 7187): Using client-side OMX mux.
+E/OMXNodeInstance( 7187): OMX_GetExtensionIndex OMX.google.android.index.storeMe
+taDataInBuffers failed
+E/ACodec ( 7187): [OMX.google.h264.decoder] storeMetaDataInBuffers failed w/ er
+r -2147483648
+I/ACodec ( 7187): [OMX.google.h264.decoder] prepareForAdaptivePlayback(720x480)
+
+I/ACodec ( 7187): [OMX.google.h264.decoder] DRC Mode: Adaptive Mode
+D/Volley ( 7187): [390] BasicNetwork.performRequest: Http status: 200
+I/art ( 4108): Explicit concurrent mark sweep GC freed 10161(572KB) AllocSpa
+ce objects, 3(48KB) LOS objects, 33% free, 16MB/25MB, paused 2.310ms total 78.59
+8ms
+E/AudioTrack( 7187): AudioTrack::set : Exit
+E/SoftAVC ( 7187): Decoder failed: -2
+E/ACodec ( 7187): [OMX.google.h264.decoder] ERROR(0x80001001)
+E/ACodec ( 7187): signalError(omxError 0x80001001, internalError -2147483648)
+E/MediaCodec( 7187): Codec reported err 0x80001001, actionCode 0, while in state
+6
+D/audio_hw_primary( 2072): select_output_device: AUDIO_DEVICE_OUT_SPEAKER
+I/SoftAAC2( 7187): limiting to stereo output
+I/SoftAAC2( 7187): Reconfiguring decoder: 0->48000 Hz, 0->2 channels
