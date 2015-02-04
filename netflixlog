@@ -1,0 +1,175 @@
+
+I/Timeline(16485): Timeline: Activity_launch_request id:com.netflix.mediaclient time:5274088
+I/ActivityManager( 2517): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.netflix.mediaclient cmp=com.netflix.mediaclient/.UIWebViewActivity} from uid 10025 on display 0
+I/ActivityManager( 2517): Start proc com.netflix.mediaclient for activity com.netflix.mediaclient/.UIWebViewActivity: pid=18714 uid=10124 gids={50124, 9997, 3002, 3003} abi=armeabi
+I/LoadedApk(18714): No resource references to update in package common
+I/LoadedApk(18714): No resource references to update in package com.rayford85.flat
+I/LoadedApk(18714): No resource references to update in package com.rayford85.flat
+W/linker  (18714): libnetflixmp_jni.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+D/OpenGLRenderer(18714): Render dirty regions requested: false
+D/Atlas   (18714): Validating map...
+E/WifiStateMachine( 2517): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=58.62 rxSuccessRate=53.27 targetRoamBSSID=d4:ca:6d:1c:8d:76 RSSI=-53
+D/libEGL  (18714): loaded /system/lib/egl/libEGL_mali.so
+D/libEGL  (18714): loaded /system/lib/egl/libGLESv1_CM_mali.so
+D/libEGL  (18714): loaded /system/lib/egl/libGLESv2_mali.so
+E/        (18714): Device driver API match
+E/        (18714): Device driver API version: 29
+E/        (18714): User space API version: 29 
+E/        (18714): mali: REVISION=Linux-r3p2-01rel3 BUILD_DATE=Tue Jul 22 19:59:34 KST 2014 
+I/OpenGLRenderer(18714): Initialized EGL, version 1.4
+D/OpenGLRenderer(18714): Enabling debug mode 0
+E/Drm     ( 1958): Failed to find drm plugin
+W/VideoCapabilities(18714): Unrecognized profile/level 32768/2 for video/mp4v-es
+W/VideoCapabilities(18714): Unrecognized profile/level 32768/2 for video/mp4v-es
+I/Timeline(18714): Timeline: Activity_idle id: android.os.BinderProxy@2459af5d time:5275832
+W/VideoCapabilities(18714): Unsupported mime video/mp4v-esdp
+I/ActivityManager( 2517): Displayed com.netflix.mediaclient/.UIWebViewActivity: +1s611ms
+I/Timeline( 2517): Timeline: Activity_windows_visible id: ActivityRecord{23c852a4 u0 com.netflix.mediaclient/.UIWebViewActivity t87} time:5275854
+I/VideoCapabilities(18714): Unsupported profile 4 for video/mp4v-es
+W/AudioCapabilities(18714): Unsupported mime audio/x-ms-wma
+W/AudioCapabilities(18714): Unsupported mime audio/vnd.rn-realaudio
+W/AudioCapabilities(18714): Unsupported mime audio/mpeg-L2
+W/AudioCapabilities(18714): Unsupported mime audio/ac3
+W/AudioCapabilities(18714): Unsupported mime audio/x-ape
+W/AudioCapabilities(18714): Unsupported mime audio/vnd.dts
+W/AudioCapabilities(18714): Unsupported mime audio/ffmpeg
+W/VideoCapabilities(18714): Unsupported mime video/mpeg2
+W/VideoCapabilities(18714): Unsupported mime video/x-ms-wmv
+W/VideoCapabilities(18714): Unsupported mime video/vnd.rn-realvideo
+W/VideoCapabilities(18714): Unsupported mime video/x-flv
+W/VideoCapabilities(18714): Unsupported mime video/ffmpeg
+E/Drm     ( 1958): Failed to find drm plugin
+W/linker  (18714): libnetflix_device7.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+I/CrittercismInstance(18714): Crittercism Initialized.
+E/OMXNodeInstance( 1958): getParameter(100663311) ERROR: 0x8000100e
+W/ACodec  (18714): do not know color format 0x7f000001 = 2130706433
+W/ACodec  (18714): do not know color format 0x7fc00002 = 2143289346
+E/OMXNodeInstance( 1958): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance( 1958): OMX_GetExtensionIndex OMX.google.android.index.storeMetaDataInBuffers failed
+W/OMXNodeInstance( 1958): OMX_GetExtensionIndex OMX.google.android.index.prepareForAdaptivePlayback failed
+E/OMXNodeInstance( 1958): getParameter(100663311) ERROR: 0x8000100e
+W/ACodec  (18714): do not know color format 0x7f000001 = 2130706433
+W/ACodec  (18714): do not know color format 0x7fc00002 = 2143289346
+E/OMXNodeInstance( 1958): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance( 1958): OMX_GetExtensionIndex OMX.google.android.index.storeMetaDataInBuffers failed
+W/OMXNodeInstance( 1958): OMX_GetExtensionIndex OMX.google.android.index.prepareForAdaptivePlayback failed
+E/OMXNodeInstance( 1958): getParameter(100663311) ERROR: 0x8000100e
+W/ACodec  (18714): do not know color format 0x7f000001 = 2130706433
+W/ACodec  (18714): do not know color format 0x7fc00002 = 2143289346
+E/OMXNodeInstance( 1958): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance( 1958): OMX_GetExtensionIndex OMX.google.android.index.storeMetaDataInBuffers failed
+W/OMXNodeInstance( 1958): OMX_GetExtensionIndex OMX.google.android.index.prepareForAdaptivePlayback failed
+W/linker  (18714): libnetflix_jp2jni.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+W/ActivityManager( 2517): getTasks: caller 10124 does not hold GET_TASKS; limiting output
+E/Crittercism(18714): Trying to install Crittercism ndk on an sdkonly library
+I/GCM     ( 3434): GCM config loaded
+D/Volley  (18714): [1456] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1457] BasicNetwork.performRequest: Http status: 200
+I/Timeline(18714): Timeline: Activity_launch_request id:com.netflix.mediaclient time:5277391
+I/ActivityManager( 2517): START u0 {flg=0x4000000 cmp=com.netflix.mediaclient/.ui.home.HomeActivity (has extras)} from uid 10124 on display 0
+D/PhoneApp( 3075): getPhone phoneId:0
+D/PhoneApp( 3075): getPhone phoneId:0
+D/PhoneApp( 3075): getPhone phoneId:0
+D/PhoneApp( 3075): getPhone phoneId:0
+D/Volley  (18714): [1458] BasicNetwork.performRequest: Http status: 202
+I/ActivityManager( 2517): Displayed com.netflix.mediaclient/.ui.home.HomeActivity: +491ms
+I/Timeline( 2517): Timeline: Activity_windows_visible id: ActivityRecord{3b41261b u0 com.netflix.mediaclient/.ui.home.HomeActivity t87} time:5277947
+I/MediaRouter(18714): Found default route: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, enabled=true, connecting=false, playbackType=0, playbackStream=3, volumeHandling=1, volume=11, volumeMax=15, presentationDisplayId=-1, extras=null, providerPackageName=android }
+I/Timeline(18714): Timeline: Activity_idle id: android.os.BinderProxy@12057217 time:5278044
+W/ActivityManager( 2517): getTasks: caller 10124 does not hold GET_TASKS; limiting output
+E/WifiStateMachine( 2517): WifiStateMachine CMD_START_SCAN source 10021 txSuccessRate=72.81 rxSuccessRate=60.13 targetRoamBSSID=d4:ca:6d:1c:8d:76 RSSI=-59
+I/wpa_supplicant( 5556): wlan0: CTRL-EVENT-SCAN-STARTED 
+E/WifiStateMachine( 2517): WifiStateMachine CMD_START_SCAN source 10021 txSuccessRate=72.81 rxSuccessRate=60.13 targetRoamBSSID=d4:ca:6d:1c:8d:76 RSSI=-59
+D/Volley  (18714): [1456] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1459] BasicNetwork.performRequest: Http status: 200
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 9
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 10
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 10
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 9
+V/RenderScript(18714): 0x6f68a200 Launching thread(s), CPUs 3
+D/Volley  (18714): [1456] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1457] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1458] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1459] BasicNetwork.performRequest: Http status: 200
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 9
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 8
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 7
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 6
+D/Volley  (18714): [1456] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1458] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1459] BasicNetwork.performRequest: Http status: 200
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 5
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 4
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 3
+D/Volley  (18714): [1457] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1458] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1459] BasicNetwork.performRequest: Http status: 200
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 2
+I/RequestQueue_Blocked(18714): Http request is blocked - queue size: 1
+D/Volley  (18714): [1456] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1457] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1458] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1459] BasicNetwork.performRequest: Http status: 200
+W/AudioTrack( 2517): AUDIO_OUTPUT_FLAG_FAST denied by client
+E/AudioTrack( 2517): AudioTrack::set : Exit
+D/audio_hw_primary( 1958): select_output_device: AUDIO_DEVICE_OUT_SPEAKER
+I/Timeline(18714): Timeline: Activity_launch_request id:com.netflix.mediaclient time:5280541
+I/ActivityManager( 2517): START u0 {flg=0x10020000 cmp=com.netflix.mediaclient/.ui.player.PlayerActivity (has extras)} from uid 10124 on display 0
+V/ActivityManager( 2517): Display changed displayId=0
+W/art     ( 2517): Long monitor contention event with owner method=android.content.res.Configuration com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens(android.content.res.Configuration, android.os.IBinder) from WindowManagerService.java:3842 waiters=0 for 233ms
+I/ActivityManager( 2517): Config changes=480 {1.0 302mcc220mnc en_CA ldltr sw411dp w731dp h386dp 280dpi nrml long land finger -keyb/v/h dpad/v s.23 themeResource=themes:{default=overlay:com.rayford85.flat, iconPack:com.rayford85.flat, fontPkg:com.chummy.jezebel.material.dark}}
+I/InputReader( 2517): Reconfiguring input devices.  changes=0x00000004
+I/InputReader( 2517): Device reconfigured: id=13, name='sec_touchscreen', size 720x1280, orientation 1, mode 1, display id 0
+I/InputReader( 2517): Device reconfigured: id=14, name='sec_e-pen', size 720x1280, orientation 1, mode 4, display id 0
+D/GeckoApplication(12964): onConfigurationChanged: en_CA, background: true
+D/GeckoApplication(18360): onConfigurationChanged: en_CA, background: false
+D/GeckoApplication(18227): onConfigurationChanged: en_CA, background: false
+I/MediaFocusControl( 2517):  AudioFocus  requestAudioFocus() from android.media.AudioManager@1c2b4b4ccom.netflix.mediaclient.ui.player.PlayerActivity@37f24952
+D/GeckoSharedPrefs(18360): Current version = 1, prefs version = 1
+D/GeckoLocales(18360): No selected locale. No correction needed.
+D/GeckoSharedPrefs(18227): Current version = 1, prefs version = 1
+D/GeckoLocales(18227): No selected locale. No correction needed.
+W/Resources(18714): Converting to string: TypedValue{t=0x10/d=0xa a=2 r=0x7f0b0007}
+W/Resources(18714): Converting to string: TypedValue{t=0x10/d=0xa a=2 r=0x7f0b0007}
+W/Resources(18714): Converting to int: TypedValue{t=0x3/d=0x4fc "2" a=2 r=0x7f0c0066}
+W/art     (18714): Before Android 4.1, method void com.netflix.mediaclient.android.widget.NetflixSeekBar.onKeyChange() would have incorrectly overridden the package-private method in android.widget.AbsSeekBar
+W/CursorWrapperInner(16485): Cursor finalized without prior close()
+I/art     ( 2777): Explicit concurrent mark sweep GC freed 106268(6MB) AllocSpace objects, 1(7MB) LOS objects, 38% free, 25MB/41MB, paused 2.256ms total 206.529ms
+I/ActivityManager( 2517): Displayed com.netflix.mediaclient/.ui.player.PlayerActivity: +903ms
+I/Timeline( 2517): Timeline: Activity_windows_visible id: ActivityRecord{26bcf424 u0 com.netflix.mediaclient/.ui.player.PlayerActivity t87} time:5281452
+I/WindowManager( 2517): Screen frozen for +910ms due to Window{d727ac1 u0 com.netflix.mediaclient/com.netflix.mediaclient.ui.player.PlayerActivity}
+I/Timeline(18714): Timeline: Activity_idle id: android.os.BinderProxy@38286795 time:5281510
+I/Choreographer( 7676): Skipped 36 frames!  The application may be doing too much work on its main thread.
+W/ActivityManager( 2517): getTasks: caller 10124 does not hold GET_TASKS; limiting output
+D/Volley  (18714): [1456] BasicNetwork.performRequest: Http status: 200
+D/Volley  (18714): [1457] BasicNetwork.performRequest: Http status: 200
+I/OMXClient(18714): Using client-side OMX mux.
+E/SEC_COMP_REGS(18714): .
+E/SEC_COMP_REGS(18714): ..
+E/SEC_COMP_REGS(18714): libOMX.SEC.AVC.Decoder.so
+E/SEC_COMP_REGS(18714): Path & libName : /system/lib/omx/libOMX.SEC.AVC.Decoder.so
+E/SEC_COMP_REGS(18714): libOMX.SEC.AVC.Encoder.so
+E/SEC_COMP_REGS(18714): Path & libName : /system/lib/omx/libOMX.SEC.AVC.Encoder.so
+E/SEC_COMP_REGS(18714): libOMX.SEC.M4V.Decoder.so
+E/SEC_COMP_REGS(18714): Path & libName : /system/lib/omx/libOMX.SEC.M4V.Decoder.so
+E/SEC_COMP_REGS(18714): libOMX.SEC.M4V.Encoder.so
+E/SEC_COMP_REGS(18714): Path & libName : /system/lib/omx/libOMX.SEC.M4V.Encoder.so
+E/SEC_COMP_REGS(18714): libOMX.SEC.WMV.Decoder.so
+E/SEC_COMP_REGS(18714): Path & libName : /system/lib/omx/libOMX.SEC.WMV.Decoder.so
+I/ACodec  (18714): sampleRate=48000 channels=2 bits=16
+I/OMXClient(18714): Using client-side OMX mux.
+E/OMXNodeInstance(18714): OMX_GetExtensionIndex OMX.google.android.index.storeMetaDataInBuffers failed
+E/ACodec  (18714): [OMX.google.h264.decoder] storeMetaDataInBuffers failed w/ err -2147483648
+I/ACodec  (18714): [OMX.google.h264.decoder] prepareForAdaptivePlayback(720x480)
+I/ACodec  (18714): [OMX.google.h264.decoder] DRC Mode: Adaptive Mode
+I/art     ( 2517): Explicit concurrent mark sweep GC freed 27992(1785KB) AllocSpace objects, 13(1513KB) LOS objects, 33% free, 25MB/37MB, paused 2.037ms total 156.330ms
+E/AudioTrack(18714): AudioTrack::set : Exit
+D/audio_hw_primary( 1958): select_output_device: AUDIO_DEVICE_OUT_SPEAKER
+I/SoftAAC2(18714): limiting to stereo output
+E/SoftAVC (18714): Decoder failed: -2
+E/ACodec  (18714): [OMX.google.h264.decoder] ERROR(0x80001001)
+E/ACodec  (18714): signalError(omxError 0x80001001, internalError -2147483648)
+E/MediaCodec(18714): Codec reported err 0x80001001, actionCode 0, while in state 6
+I/SoftAAC2(18714): Reconfiguring decoder: 0->48000 Hz, 0->2 channels
+I/AudioFlinger( 1958): BUFFER TIMEOUT: remove(4100) from active list on thread 0x41601000
+W/GeckoEventDispatcher(12964): No listeners for MediaPlayer:Get
