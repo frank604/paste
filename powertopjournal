@@ -1,0 +1,82 @@
+-- Logs begin at Sat 2015-01-24 22:08:04 PST, end at Sat 2015-02-07 14:50:48 PST. --
+Feb 07 14:47:52 AetherX powertop[388]: Loaded 339 prior measurements
+Feb 07 14:47:52 AetherX powertop[388]: Devfreq not enabled
+Feb 07 14:47:54 AetherX powertop[388]: unknown op '{'
+Feb 07 14:47:57 AetherX powertop[388]: *** Error in `/usr/bin/powertop': double free or corruption (!prev): 0x0000000001448f40 ***
+Feb 07 14:47:57 AetherX powertop[388]: ======= Backtrace: =========
+Feb 07 14:47:57 AetherX powertop[388]: /usr/lib/libc.so.6(+0x732ae)[0x7fa710ece2ae]
+Feb 07 14:47:57 AetherX powertop[388]: /usr/lib/libc.so.6(+0x7872e)[0x7fa710ed372e]
+Feb 07 14:47:57 AetherX powertop[388]: /usr/lib/libc.so.6(+0x78eeb)[0x7fa710ed3eeb]
+Feb 07 14:47:57 AetherX powertop[388]: /usr/lib/libc.so.6(closedir+0xd)[0x7fa710f0e77d]
+Feb 07 14:47:57 AetherX powertop[388]: /usr/bin/powertop[0x411b98]
+Feb 07 14:47:57 AetherX powertop[388]: /usr/bin/powertop[0x406cfd]
+Feb 07 14:47:57 AetherX powertop[388]: /usr/lib/libc.so.6(__libc_start_main+0xf0)[0x7fa710e7b040]
+Feb 07 14:47:57 AetherX powertop[388]: /usr/bin/powertop[0x407cac]
+Feb 07 14:47:57 AetherX powertop[388]: ======= Memory map: ========
+Feb 07 14:47:57 AetherX powertop[388]: 00400000-00476000 r-xp 00000000 08:06 1471539                            /usr/bin/powertop
+Feb 07 14:47:57 AetherX powertop[388]: 00675000-00676000 r--p 00075000 08:06 1471539                            /usr/bin/powertop
+Feb 07 14:47:57 AetherX powertop[388]: 00676000-00677000 rw-p 00076000 08:06 1471539                            /usr/bin/powertop
+Feb 07 14:47:57 AetherX powertop[388]: 00677000-0067a000 rw-p 00000000 00:00 0
+Feb 07 14:47:57 AetherX powertop[388]: 01345000-01c89000 rw-p 00000000 00:00 0                                  [heap]
+Feb 07 14:47:57 AetherX powertop[388]: 7fa710c43000-7fa710c57000 r-xp 00000000 08:06 1442148                    /usr/lib/libresolv-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa710c57000-7fa710e56000 ---p 00014000 08:06 1442148                    /usr/lib/libresolv-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa710e56000-7fa710e58000 r--p 00013000 08:06 1442148                    /usr/lib/libresolv-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa710e58000-7fa710e59000 rw-p 00015000 08:06 1442148                    /usr/lib/libresolv-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa710e59000-7fa710e5b000 rw-p 00000000 00:00 0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa710e5b000-7fa710ff4000 r-xp 00000000 08:06 1442175                    /usr/lib/libc-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa710ff4000-7fa7111f4000 ---p 00199000 08:06 1442175                    /usr/lib/libc-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7111f4000-7fa7111f8000 r--p 00199000 08:06 1442175                    /usr/lib/libc-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7111f8000-7fa7111fa000 rw-p 0019d000 08:06 1442175                    /usr/lib/libc-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7111fa000-7fa7111fe000 rw-p 00000000 00:00 0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7111fe000-7fa711214000 r-xp 00000000 08:06 1442494                    /usr/lib/libgcc_s.so.1
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711214000-7fa711413000 ---p 00016000 08:06 1442494                    /usr/lib/libgcc_s.so.1
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711413000-7fa711414000 rw-p 00015000 08:06 1442494                    /usr/lib/libgcc_s.so.1
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711414000-7fa711517000 r-xp 00000000 08:06 1442174                    /usr/lib/libm-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711517000-7fa711717000 ---p 00103000 08:06 1442174                    /usr/lib/libm-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711717000-7fa711718000 r--p 00103000 08:06 1442174                    /usr/lib/libm-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711718000-7fa711719000 rw-p 00104000 08:06 1442174                    /usr/lib/libm-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711719000-7fa711809000 r-xp 00000000 08:06 1442526                    /usr/lib/libstdc++.so.6.0.20
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711809000-7fa711a09000 ---p 000f0000 08:06 1442526                    /usr/lib/libstdc++.so.6.0.20
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711a09000-7fa711a11000 r--p 000f0000 08:06 1442526                    /usr/lib/libstdc++.so.6.0.20
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711a11000-7fa711a13000 rw-p 000f8000 08:06 1442526                    /usr/lib/libstdc++.so.6.0.20
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711a13000-7fa711a28000 rw-p 00000000 00:00 0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711a28000-7fa711a3f000 r-xp 00000000 08:06 1442154                    /usr/lib/libpthread-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711a3f000-7fa711c3e000 ---p 00017000 08:06 1442154                    /usr/lib/libpthread-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711c3e000-7fa711c3f000 r--p 00016000 08:06 1442154                    /usr/lib/libpthread-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711c3f000-7fa711c40000 rw-p 00017000 08:06 1442154                    /usr/lib/libpthread-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711c40000-7fa711c44000 rw-p 00000000 00:00 0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711c44000-7fa711c50000 r-xp 00000000 08:06 1457867                    /usr/lib/libpci.so.3.3.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711c50000-7fa711e4f000 ---p 0000c000 08:06 1457867                    /usr/lib/libpci.so.3.3.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711e4f000-7fa711e50000 r--p 0000b000 08:06 1457867                    /usr/lib/libpci.so.3.3.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711e50000-7fa711e51000 rw-p 0000c000 08:06 1457867                    /usr/lib/libpci.so.3.3.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711e51000-7fa711eb0000 r-xp 00000000 08:06 1442567                    /usr/lib/libncursesw.so.5.9
+Feb 07 14:47:57 AetherX powertop[388]: 7fa711eb0000-7fa7120b0000 ---p 0005f000 08:06 1442567                    /usr/lib/libncursesw.so.5.9
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7120b0000-7fa7120b4000 r--p 0005f000 08:06 1442567                    /usr/lib/libncursesw.so.5.9
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7120b4000-7fa7120b6000 rw-p 00063000 08:06 1442567                    /usr/lib/libncursesw.so.5.9
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7120b6000-7fa7120d2000 r-xp 00000000 08:06 1462707                    /usr/lib/libnl-3.so.200.20.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7120d2000-7fa7122d2000 ---p 0001c000 08:06 1462707                    /usr/lib/libnl-3.so.200.20.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7122d2000-7fa7122d4000 r--p 0001c000 08:06 1462707                    /usr/lib/libnl-3.so.200.20.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7122d4000-7fa7122d5000 rw-p 0001e000 08:06 1462707                    /usr/lib/libnl-3.so.200.20.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7122d5000-7fa7122da000 r-xp 00000000 08:06 1462708                    /usr/lib/libnl-genl-3.so.200.20.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7122da000-7fa7124da000 ---p 00005000 08:06 1462708                    /usr/lib/libnl-genl-3.so.200.20.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7124da000-7fa7124db000 r--p 00005000 08:06 1462708                    /usr/lib/libnl-genl-3.so.200.20.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7124db000-7fa7124dc000 rw-p 00006000 08:06 1462708                    /usr/lib/libnl-genl-3.so.200.20.0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7124dc000-7fa7124fe000 r-xp 00000000 08:06 1442151                    /usr/lib/ld-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa712544000-7fa7126cd000 r--p 00000000 08:06 1462706                    /usr/lib/locale/locale-archive
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7126cd000-7fa7126d5000 rw-p 00000000 00:00 0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7126f9000-7fa7126fb000 rw-p 00000000 00:00 0
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7126fb000-7fa7126fd000 r--p 00000000 08:06 1578097                    /usr/share/locale/en_US/LC_MESSAGES/powertop.mo
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7126fd000-7fa7126fe000 r--p 00021000 08:06 1442151                    /usr/lib/ld-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7126fe000-7fa7126ff000 rw-p 00022000 08:06 1442151                    /usr/lib/ld-2.20.so
+Feb 07 14:47:57 AetherX powertop[388]: 7fa7126ff000-7fa712700000 rw-p 00000000 00:00 0
+Feb 07 14:47:57 AetherX powertop[388]: 7fff0cd94000-7fff0cdb5000 rw-p 00000000 00:00 0                          [stack]
+Feb 07 14:47:57 AetherX powertop[388]: 7fff0cde5000-7fff0cde7000 r--p 00000000 00:00 0                          [vvar]
+Feb 07 14:47:57 AetherX powertop[388]: 7fff0cde7000-7fff0cde9000 r-xp 00000000 00:00 0                          [vdso]
+Feb 07 14:47:57 AetherX powertop[388]: ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Feb 07 14:47:57 AetherX powertop[388]: RAPL device for cpu 0
+Feb 07 14:47:57 AetherX powertop[388]: RAPL Using PowerCap Sysfs : Domain Mask f
+Feb 07 14:47:57 AetherX powertop[388]: RAPL device for cpu 0
+Feb 07 14:47:57 AetherX powertop[388]: RAPL Using PowerCap Sysfs : Domain Mask f
+Feb 07 14:47:57 AetherX powertop[388]: RAPL device for cpu 0
+Feb 07 14:47:57 AetherX powertop[388]: RAPL Using PowerCap Sysfs : Domain Mask f
+Feb 07 14:47:57 AetherX powertop[388]: Leaving PowerTOP
